@@ -1,0 +1,37 @@
+QWidget {
+  background-color: #1e1e1e;
+  font-family: "Meiryo UI";
+  color: white;
+
+}
+
+QPushButton {
+  border-style: outset;
+  border-width: 2px;
+  border-radius: 10px;
+  font: bold 14px;
+  min-width: 10em;
+  padding: 6px;
+  border-color: white;
+}
+QPushButton:pressed {
+  border-style: inset;
+  background-color: #aeadac;
+}
+QPushButton:disabled {
+  background-color: #aeadac;
+  border-color: #868482;
+}
+QLCDNumber {
+  color: #f0f0f0;
+  border: none;
+}
+QLabel {
+    font-size: 18px;
+}
+QSpinBox {
+    font-size: 18px;
+}
+QPlainTextEdit {
+    font-size: 18px;
+}
